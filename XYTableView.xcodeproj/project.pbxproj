@@ -15,6 +15,17 @@
 		0DC60893211AC72000578504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC60892211AC72000578504 /* main.m */; };
 		0DC6089D211AC72000578504 /* XYTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6089C211AC72000578504 /* XYTableViewTests.m */; };
 		0DC608A8211AC72000578504 /* XYTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC608A7211AC72000578504 /* XYTableViewUITests.m */; };
+		0DC608C1211AC77F00578504 /* XYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC608BB211AC77F00578504 /* XYTableViewCell.m */; };
+		0DC608C2211AC77F00578504 /* XYTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC608BC211AC77F00578504 /* XYTableViewModel.m */; };
+		0DC608C3211AC77F00578504 /* XYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC608BD211AC77F00578504 /* XYTableView.m */; };
+		0DC608C9211AC7FA00578504 /* XYCellBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC608C6211AC7FA00578504 /* XYCellBaseModel.m */; };
+		0DC608CA211AC7FA00578504 /* XYSectionBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC608C8211AC7FA00578504 /* XYSectionBaseModel.m */; };
+		0DC60913211BEBFC00578504 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DC60912211BEBFC00578504 /* data.plist */; };
+		0DC60917211BEC4100578504 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC60916211BEC4100578504 /* UserModel.m */; };
+		0DC6091A211BED1900578504 /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC60919211BED1900578504 /* UserViewModel.m */; };
+		0DC60920211BEDB200578504 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6091E211BEDB200578504 /* UserTableViewCell.m */; };
+		0DC60921211BEDB200578504 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DC6091F211BEDB200578504 /* UserTableViewCell.xib */; };
+		D5F9767690ED61CDD22425B3 /* libPods-XYTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64694E83DC94737992D5C080 /* libPods-XYTableView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,28 @@
 		0DC608A3211AC72000578504 /* XYTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC608A7211AC72000578504 /* XYTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYTableViewUITests.m; sourceTree = "<group>"; };
 		0DC608A9211AC72000578504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC608B7211AC77F00578504 /* XYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTableView.h; sourceTree = "<group>"; };
+		0DC608B8211AC77F00578504 /* XYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTableViewCell.h; sourceTree = "<group>"; };
+		0DC608B9211AC77F00578504 /* XYTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTableViewModel.h; sourceTree = "<group>"; };
+		0DC608BB211AC77F00578504 /* XYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTableViewCell.m; sourceTree = "<group>"; };
+		0DC608BC211AC77F00578504 /* XYTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTableViewModel.m; sourceTree = "<group>"; };
+		0DC608BD211AC77F00578504 /* XYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTableView.m; sourceTree = "<group>"; };
+		0DC608C5211AC7FA00578504 /* XYCellBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCellBaseModel.h; sourceTree = "<group>"; };
+		0DC608C6211AC7FA00578504 /* XYCellBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCellBaseModel.m; sourceTree = "<group>"; };
+		0DC608C7211AC7FA00578504 /* XYSectionBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSectionBaseModel.h; sourceTree = "<group>"; };
+		0DC608C8211AC7FA00578504 /* XYSectionBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSectionBaseModel.m; sourceTree = "<group>"; };
+		0DC608CB211ACB1500578504 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DC60912211BEBFC00578504 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		0DC60915211BEC4100578504 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		0DC60916211BEC4100578504 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		0DC60918211BED1900578504 /* UserViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
+		0DC60919211BED1900578504 /* UserViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
+		0DC6091D211BEDB200578504 /* UserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		0DC6091E211BEDB200578504 /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		0DC6091F211BEDB200578504 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		1E117D74C122D6E73F1E8034 /* Pods-XYTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYTableView/Pods-XYTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		64694E83DC94737992D5C080 /* libPods-XYTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB79DDEF0467482FAFAF9AD /* Pods-XYTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYTableView/Pods-XYTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F9767690ED61CDD22425B3 /* libPods-XYTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +119,8 @@
 				0DC6089B211AC72000578504 /* XYTableViewTests */,
 				0DC608A6211AC72000578504 /* XYTableViewUITests */,
 				0DC60881211AC71F00578504 /* Products */,
+				2A7AE676A9CC112B6A36847B /* Pods */,
+				BE50E01056D05D67679A0E46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +137,15 @@
 		0DC60882211AC71F00578504 /* XYTableView */ = {
 			isa = PBXGroup;
 			children = (
+				0DC608B5211AC75A00578504 /* XYTableView */,
+				0DC60926211BF93500578504 /* Controller */,
+				0DC60914211BEC1A00578504 /* Model */,
+				0DC6091C211BED9000578504 /* View */,
 				0DC60883211AC71F00578504 /* AppDelegate.h */,
 				0DC60884211AC71F00578504 /* AppDelegate.m */,
-				0DC60886211AC71F00578504 /* ViewController.h */,
-				0DC60887211AC71F00578504 /* ViewController.m */,
-				0DC60889211AC71F00578504 /* Main.storyboard */,
 				0DC6088C211AC72000578504 /* Assets.xcassets */,
 				0DC6088E211AC72000578504 /* LaunchScreen.storyboard */,
+				0DC60912211BEBFC00578504 /* data.plist */,
 				0DC60891211AC72000578504 /* Info.plist */,
 				0DC60892211AC72000578504 /* main.m */,
 			);
@@ -132,6 +170,72 @@
 			path = XYTableViewUITests;
 			sourceTree = "<group>";
 		};
+		0DC608B5211AC75A00578504 /* XYTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0DC608B7211AC77F00578504 /* XYTableView.h */,
+				0DC608BD211AC77F00578504 /* XYTableView.m */,
+				0DC608B8211AC77F00578504 /* XYTableViewCell.h */,
+				0DC608BB211AC77F00578504 /* XYTableViewCell.m */,
+				0DC608B9211AC77F00578504 /* XYTableViewModel.h */,
+				0DC608BC211AC77F00578504 /* XYTableViewModel.m */,
+				0DC608C5211AC7FA00578504 /* XYCellBaseModel.h */,
+				0DC608C6211AC7FA00578504 /* XYCellBaseModel.m */,
+				0DC608C7211AC7FA00578504 /* XYSectionBaseModel.h */,
+				0DC608C8211AC7FA00578504 /* XYSectionBaseModel.m */,
+			);
+			path = XYTableView;
+			sourceTree = "<group>";
+		};
+		0DC60914211BEC1A00578504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DC60915211BEC4100578504 /* UserModel.h */,
+				0DC60916211BEC4100578504 /* UserModel.m */,
+				0DC60918211BED1900578504 /* UserViewModel.h */,
+				0DC60919211BED1900578504 /* UserViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DC6091C211BED9000578504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DC6091D211BEDB200578504 /* UserTableViewCell.h */,
+				0DC6091E211BEDB200578504 /* UserTableViewCell.m */,
+				0DC6091F211BEDB200578504 /* UserTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DC60926211BF93500578504 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0DC60886211AC71F00578504 /* ViewController.h */,
+				0DC60887211AC71F00578504 /* ViewController.m */,
+				0DC60889211AC71F00578504 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A7AE676A9CC112B6A36847B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E117D74C122D6E73F1E8034 /* Pods-XYTableView.debug.xcconfig */,
+				EDB79DDEF0467482FAFAF9AD /* Pods-XYTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE50E01056D05D67679A0E46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DC608CB211ACB1500578504 /* CoreGraphics.framework */,
+				64694E83DC94737992D5C080 /* libPods-XYTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DC608AC211AC72000578504 /* Build configuration list for PBXNativeTarget "XYTableView" */;
 			buildPhases = (
+				D8A819892D0BF92EA374FB08 /* [CP] Check Pods Manifest.lock */,
 				0DC6087C211AC71F00578504 /* Sources */,
 				0DC6087D211AC71F00578504 /* Frameworks */,
 				0DC6087E211AC71F00578504 /* Resources */,
+				ADC522834A2EDF1B3AFD1E30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +343,9 @@
 			files = (
 				0DC60890211AC72000578504 /* LaunchScreen.storyboard in Resources */,
 				0DC6088D211AC72000578504 /* Assets.xcassets in Resources */,
+				0DC60913211BEBFC00578504 /* data.plist in Resources */,
 				0DC6088B211AC71F00578504 /* Main.storyboard in Resources */,
+				0DC60921211BEDB200578504 /* UserTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +365,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADC522834A2EDF1B3AFD1E30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XYTableView/Pods-XYTableView-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYTableView/Pods-XYTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A819892D0BF92EA374FB08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DC6087C211AC71F00578504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0DC60888211AC71F00578504 /* ViewController.m in Sources */,
+				0DC608CA211AC7FA00578504 /* XYSectionBaseModel.m in Sources */,
+				0DC608C1211AC77F00578504 /* XYTableViewCell.m in Sources */,
+				0DC60920211BEDB200578504 /* UserTableViewCell.m in Sources */,
+				0DC6091A211BED1900578504 /* UserViewModel.m in Sources */,
+				0DC608C3211AC77F00578504 /* XYTableView.m in Sources */,
 				0DC60893211AC72000578504 /* main.m in Sources */,
+				0DC608C2211AC77F00578504 /* XYTableViewModel.m in Sources */,
 				0DC60885211AC71F00578504 /* AppDelegate.m in Sources */,
+				0DC608C9211AC7FA00578504 /* XYCellBaseModel.m in Sources */,
+				0DC60917211BEC4100578504 /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +586,7 @@
 		};
 		0DC608AD211AC72000578504 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E117D74C122D6E73F1E8034 /* Pods-XYTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +603,7 @@
 		};
 		0DC608AE211AC72000578504 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB79DDEF0467482FAFAF9AD /* Pods-XYTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
